@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Editor from '@/packages/editor';
 function App() {
-  return <>23123</>;
+  return (
+    <>
+      <Editor />
+    </>
+  );
 }
 ReactDOM.render(<App />, document.getElementById('root'));
