@@ -4,21 +4,18 @@
     "module": "esnext",
     "moduleResolution": "node",
     "lib": ["esnext", "dom"],
-    "forceConsistentCasingInFileNames": true,
-    "importHelpers": true,
-    "jsx": "react",
     "esModuleInterop": true,
+    "noImplicitAny": true,
     "sourceMap": true,
+    "outDir": "dist",
+    "jsx": "react",
     "baseUrl": ".",
-    "experimentalDecorators": true,
-    "noImplicitReturns": true,
-    "strict": true,
-    "declaration": true,
     "paths": {
       "@/*": ["src/*"]
     },
+    "strict": true,
     "allowSyntheticDefaultImports": true,
     "noEmit": true
   },
-  "exclude": ["node_modules"]
+  "include": ["src/**/*"]
 }
